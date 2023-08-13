@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+<h1> React Hooks Counter Project</h1>
+This is a simple React project that demonstrates the usage of React hooks and basic components to create a counter application with increment and decrement buttons. The project also includes a feature that displays an alert when the counter value goes below 0, and automatically resets the value to 0.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Getting Started
+Prerequisites
+Installation
+Usage
+Features
+License
+Getting Started
+To get started with the project, follow the instructions below to set up the environment and run the application locally.
 
-## Available Scripts
+Prerequisites
+Make sure you have the following software installed on your system:
 
-In the project directory, you can run:
+Node.js: Download and install Node.js from the official website (https://nodejs.org/)
+Installation
+Clone the repository to your local machine using the following command:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/YourUsername/ReactHooksCounter.git
+Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+cd ReactHooksCounter
+Install the project dependencies using npm:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Copy code
+npm install
+Usage
+Start the development server by running the following command:
 
-### `npm test`
+sql
+Copy code
+npm start
+Open your web browser and navigate to http://localhost:3000 to view the counter application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Click the "Increment" button to increase the counter value and the "Decrement" button to decrease it.
 
-### `npm run build`
+If the counter value goes below 0, an alert will pop up informing you that zero has been reached, and the counter value will automatically reset to 0.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Features
+Increment and decrement buttons to manipulate the counter value.
+Alert notification when the counter value goes below 0, with automatic reset to 0.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to modify and expand upon this project as you see fit. Happy coding!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author: Harsh Gurjar
+GitHub: YourUsername
